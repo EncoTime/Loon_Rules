@@ -1,0 +1,36 @@
+{
+  "name": "bybit",
+  "policy": "Bybit",
+  "sources": [
+    "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/classical/bybit.list",
+    "https://raw.githubusercontent.com/0bit2x/bybit/HEAD/bybit.list",
+    "https://raw.githubusercontent.com/Mattease/Bybit-SRS-RULES/HEAD/bybit.list",
+    "https://raw.githubusercontent.com/ryodtmiller/dump/refs/heads/main/bybit.list"
+  ],
+  "exclude": [
+    "monitor-frontend-collector.a.bybit-aws.com",
+    "a.run.app",
+    "g9904216750.co",
+    "appsflyer.com",
+    "appsflyersdk.com",
+    "app-measurement.com",
+    "amazon.com",
+    "amazonaws.com",
+    "coingecko.com",
+    "geckoterminal.com",
+    "coinmarketcap.com",
+    "coinall.ltd",
+    "aptoslabs.com",
+    "aptosnames.com",
+    "basescan.org",
+    "btrscan.com",
+    "dappradar.com",
+    "creativecdn.com",
+    "mgid.com",
+    "smartadserver.com",
+    "tronads.io",
+    "website-files.com",
+    "online-metrix.net",
+    "wsot2022.com"
+  ]
+}

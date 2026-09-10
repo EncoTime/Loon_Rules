@@ -1,0 +1,39 @@
+name: update-rules
+
+on:
+  schedule:
+    - cron: '0 21 * * *'  # UTC 21:00 = 北京时间（HKT 同为 UTC+8）凌晨 5 点
+  workflow_dispatch: {}    # 支持手动触发
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 构建全部规则（遍历含 sources.json 的目录）
+        run: |
+          for dir in */sources.json; do
+            rule_dir=$(dirname "$dir")
+            echo "=== 构建 $rule_dir ==="
+            python3 scripts/build.py "$rule_dir"
+          done
+
+      - name: 提交（有变化才 commit）
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [[ -n $(git status --porcelain -- '*.list') ]]; then
+            git add '*.list'
+            git commit -m "auto: 规则更新 $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          else
+            echo "无变化，跳过提交"
+          fi
