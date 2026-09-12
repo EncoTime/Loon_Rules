@@ -1,0 +1,8 @@
+{
+  "name": "meta",
+  "policy": "Meta",
+  "sources": [
+    "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/classical/meta.list"
+  ],
+  "exclude": []
+}
