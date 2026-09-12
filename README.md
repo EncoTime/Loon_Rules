@@ -7,6 +7,8 @@ Loon 代理规则订阅仓库 —— CoffeeOwl 维护，多上游自动聚合。
 | 规则 | 订阅链接 |
 |------|----------|
 | [bybit](bybit/) | `https://raw.githubusercontent.com/EncoTime/Loon_Rules/main/bybit/bybit.list` |
+| [meta](meta/) | `https://raw.githubusercontent.com/EncoTime/Loon_Rules/main/meta/meta.list` |
+| [google](google/) | `https://raw.githubusercontent.com/EncoTime/Loon_Rules/main/google/google.list` |
 
 ## 工作方式
 
