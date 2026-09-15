@@ -5,9 +5,11 @@ sys.path.insert(0, str(__import__("pathlib").Path(__file__).parent))
 
 from build import parse, excluded
 
-# 域名行统一归 DOMAIN-SUFFIX；IP 行保留地址族；裸 CIDR 兼容 v4/v6
+# DOMAIN-SUFFIX 原样保留；DOMAIN 精确行原样保留；KEYWORD 保留；UA 等不支持类型丢弃
 assert parse("DOMAIN-SUFFIX,a.com") == {("DOMAIN-SUFFIX", "a.com")}
-assert parse("DOMAIN,a.com,P") == {("DOMAIN-SUFFIX", "a.com")}
+assert parse("DOMAIN,a.com,P") == {("DOMAIN", "a.com")}
+assert parse("DOMAIN-KEYWORD,microsoft,P") == {("DOMAIN-KEYWORD", "microsoft")}
+assert parse("USER-AGENT,Microsoft*,P") == set()
 assert parse("IP-CIDR,1.2.3.0/24,no-resolve") == {("IP-CIDR", "1.2.3.0/24")}
 assert parse("IP-CIDR6,2606:4700::/32") == {("IP-CIDR6", "2606:4700::/32")}
 assert parse("104.16.0.0/13") == {("IP-CIDR", "104.16.0.0/13")}

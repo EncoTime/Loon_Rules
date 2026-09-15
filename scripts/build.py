@@ -14,7 +14,7 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
 HKT = timezone(timedelta(hours=8))
-DOMAIN_RE = re.compile(r"^(DOMAIN(?:-SUFFIX)?),([a-z0-9._-]+)(?:,.*)?$")
+DOMAIN_RE = re.compile(r"^(DOMAIN(?:-SUFFIX)?|DOMAIN-KEYWORD),([a-z0-9._-]+)(?:,.*)?$")
 BARE_CIDR_RE = re.compile(r"^[0-9a-fA-F:.]+/\d{1,3}$")
 
 
@@ -38,7 +38,9 @@ def ip_type(cidr: str) -> str:
 def parse(text: str) -> set[tuple[str, str]]:
     """从上游文本提取规则 (类型, 值)；兼容 clash/loon/surge 行格式与裸 CIDR。
 
-    域名行统一归为 DOMAIN-SUFFIX（产物只输出后缀规则）；IP 行保留地址族类型。
+    产物支持 DOMAIN、DOMAIN-SUFFIX、DOMAIN-KEYWORD 与 IP 行（地址族自动区分）；
+    DOMAIN 精确行一律转为 DOMAIN-SUFFIX（单域名后缀规则语义兼容且行数更少）；
+    USER-AGENT 等 Loon 不支持的类型丢弃。
     """
     rules: set[tuple[str, str]] = set()
     for line in text.splitlines():
@@ -46,7 +48,7 @@ def parse(text: str) -> set[tuple[str, str]]:
         if not line:
             continue
         if m := DOMAIN_RE.match(line):
-            rules.add(("DOMAIN-SUFFIX", m.group(2)))
+            rules.add((m.group(1), m.group(2)))
             continue
         fields = [f.strip() for f in line.split(",")]
         if fields[0] in ("IP-CIDR", "IP-CIDR6") and len(fields) >= 2:
@@ -89,12 +91,17 @@ def main() -> None:
         sys.exit("全部上游拉取失败，保留旧产物不动")
 
     domains = {v for t, v in rules if t == "DOMAIN-SUFFIX" and not excluded(v, excl)}
-    # 子域被父域覆盖时去重（有 bybit.com 就不再单列 x.bybit.com——本规则集目前无此情况，防御性保留）
-    lines = [f"DOMAIN-SUFFIX,{d},{policy}" for d in sorted(domains)
-             if not any(d.endswith("." + s) for s in domains if s != d)]
+    exact = {v for t, v in rules if t == "DOMAIN" and not excluded(v, excl)}
+    keywords = sorted(v for t, v in rules if t == "DOMAIN-KEYWORD" and not excluded(v, excl))
+    # 子域被父域覆盖时去重（有 bybit.com 就不再单列 x.bybit.com）
+    lines = [f"DOMAIN-KEYWORD,{k},{policy}" for k in keywords]
+    lines += [f"DOMAIN-SUFFIX,{d},{policy}" for d in sorted(domains)
+              if not any(d.endswith("." + s) for s in domains if s != d)]
+    lines += [f"DOMAIN,{d},{policy}" for d in sorted(exact)
+              if not any(d.endswith("." + s) for s in domains if s != d)]
     # IP 段不受 exclude 表约束（exclude 只管域名），固定 no-resolve 避免无谓 DNS 解析
     lines += [f"{t},{v},{policy},no-resolve"
-              for t, v in sorted(r for r in rules if r[0] != "DOMAIN-SUFFIX")]
+              for t, v in sorted(r for r in rules if r[0] in ("IP-CIDR", "IP-CIDR6"))]
     header = (
         f"# {name} — Loon 规则（自动生成，勿手改）\n"
         f"# 上游 {ok_sources}/{len(cfg['sources'])} 个源，共 {len(lines)} 条\n"
