@@ -1,6 +1,6 @@
 # google — Loon 规则（自动生成，勿手改）
-# 上游 1/1 个源，共 802 条
-# 生成时间：2026-09-15T07:41:36+08:00
+# 上游 1/1 个源，共 805 条
+# 生成时间：2026-09-16T07:24:33+08:00
 DOMAIN-SUFFIX,0emm.com,Google
 DOMAIN-SUFFIX,1e100.net,Google
 DOMAIN-SUFFIX,1ucrs.com,Google
@@ -19,13 +19,11 @@ DOMAIN-SUFFIX,apigee.com,Google
 DOMAIN-SUFFIX,appbridge.ca,Google
 DOMAIN-SUFFIX,appbridge.io,Google
 DOMAIN-SUFFIX,appbridge.it,Google
-DOMAIN-SUFFIX,apps5.oingo.com,Google
 DOMAIN-SUFFIX,appspot.com,Google
 DOMAIN-SUFFIX,apture.com,Google
 DOMAIN-SUFFIX,area120.com,Google
 DOMAIN-SUFFIX,asp-cc.com,Google
 DOMAIN-SUFFIX,autodraw.com,Google
-DOMAIN-SUFFIX,avail.googleflights.net,Google
 DOMAIN-SUFFIX,bandpage.com,Google
 DOMAIN-SUFFIX,baselinestudy.com,Google
 DOMAIN-SUFFIX,baselinestudy.org,Google
@@ -128,7 +126,6 @@ DOMAIN-SUFFIX,chromestatus.com,Google
 DOMAIN-SUFFIX,chromium.org,Google
 DOMAIN-SUFFIX,chronicle.security,Google
 DOMAIN-SUFFIX,chroniclesec.com,Google
-DOMAIN-SUFFIX,clickserve.cc-dt.com,Google
 DOMAIN-SUFFIX,cloudburstresearch.com,Google
 DOMAIN-SUFFIX,cloudfunctions.net,Google
 DOMAIN-SUFFIX,cloudproxy.app,Google
@@ -148,7 +145,6 @@ DOMAIN-SUFFIX,cs4hs.com,Google
 DOMAIN-SUFFIX,dart.dev,Google
 DOMAIN-SUFFIX,dartlang.org,Google
 DOMAIN-SUFFIX,dartpad.dev,Google
-DOMAIN-SUFFIX,dartsearch-cn.net,Google
 DOMAIN-SUFFIX,dartsearch.net,Google
 DOMAIN-SUFFIX,dataliberation.org,Google
 DOMAIN-SUFFIX,dclk,Google
@@ -214,7 +210,6 @@ DOMAIN-SUFFIX,golang.com,Google
 DOMAIN-SUFFIX,golang.net,Google
 DOMAIN-SUFFIX,golang.org,Google
 DOMAIN-SUFFIX,gonglchuangl.net,Google
-DOMAIN-SUFFIX,gongyichuangyi.net,Google
 DOMAIN-SUFFIX,goo.gl,Google
 DOMAIN-SUFFIX,goog,Google
 DOMAIN-SUFFIX,googel.com,Google
@@ -222,7 +217,6 @@ DOMAIN-SUFFIX,googil.com,Google
 DOMAIN-SUFFIX,googl.com,Google
 DOMAIN-SUFFIX,google,Google
 DOMAIN-SUFFIX,google-access.net,Google
-DOMAIN-SUFFIX,google-ohttp-relay-safebrowsing.fastly-edge.com,Google
 DOMAIN-SUFFIX,google-syndication.com,Google
 DOMAIN-SUFFIX,google.ad,Google
 DOMAIN-SUFFIX,google.ae,Google
@@ -421,10 +415,8 @@ DOMAIN-SUFFIX,google.vg,Google
 DOMAIN-SUFFIX,google.vu,Google
 DOMAIN-SUFFIX,google.ws,Google
 DOMAIN-SUFFIX,googleacquisitionmigration.com,Google
-DOMAIN-SUFFIX,googleapis-cn.com,Google
 DOMAIN-SUFFIX,googleapis.cn,Google
 DOMAIN-SUFFIX,googleapis.com,Google
-DOMAIN-SUFFIX,googleapps-cn.com,Google
 DOMAIN-SUFFIX,googleapps.com,Google
 DOMAIN-SUFFIX,googlearth.com,Google
 DOMAIN-SUFFIX,googleblog.com,Google
@@ -443,7 +435,6 @@ DOMAIN-SUFFIX,googleearth.com,Google
 DOMAIN-SUFFIX,googlefiber.com,Google
 DOMAIN-SUFFIX,googlefiber.net,Google
 DOMAIN-SUFFIX,googlefinland.com,Google
-DOMAIN-SUFFIX,googleflights-cn.net,Google
 DOMAIN-SUFFIX,googlemail.com,Google
 DOMAIN-SUFFIX,googlemaps.com,Google
 DOMAIN-SUFFIX,googlepagecreator.com,Google
@@ -462,12 +453,10 @@ DOMAIN-SUFFIX,goolge.com,Google
 DOMAIN-SUFFIX,gooogle.com,Google
 DOMAIN-SUFFIX,gridaware.app,Google
 DOMAIN-SUFFIX,gsrc.io,Google
-DOMAIN-SUFFIX,gstatic-cn.com,Google
 DOMAIN-SUFFIX,gstatic.cn,Google
 DOMAIN-SUFFIX,gstatic.com,Google
 DOMAIN-SUFFIX,gstaticcnapps.cn,Google
 DOMAIN-SUFFIX,gsuite.com,Google
-DOMAIN-SUFFIX,gtm.oasisfeng.com,Google
 DOMAIN-SUFFIX,guge,Google
 DOMAIN-SUFFIX,gvt0.com,Google
 DOMAIN-SUFFIX,gvt1-cn.com,Google
@@ -550,13 +539,9 @@ DOMAIN-SUFFIX,projectara.com,Google
 DOMAIN-SUFFIX,projectbaseline.com,Google
 DOMAIN-SUFFIX,pub.dev,Google
 DOMAIN-SUFFIX,publishproxy.com,Google
-DOMAIN-SUFFIX,qiao-cn.com,Google
-DOMAIN-SUFFIX,qpx.googleflights.net,Google
 DOMAIN-SUFFIX,questvisual.com,Google
 DOMAIN-SUFFIX,quickoffice.com,Google
 DOMAIN-SUFFIX,quiksee.com,Google
-DOMAIN-SUFFIX,recaptcha-cn.net,Google
-DOMAIN-SUFFIX,recaptcha.net,Google
 DOMAIN-SUFFIX,revolv.com,Google
 DOMAIN-SUFFIX,ridepenguin.com,Google
 DOMAIN-SUFFIX,run.app,Google
@@ -620,8 +605,6 @@ DOMAIN-SUFFIX,womenwill.com.br,Google
 DOMAIN-SUFFIX,womenwill.id,Google
 DOMAIN-SUFFIX,womenwill.in,Google
 DOMAIN-SUFFIX,womenwill.mx,Google
-DOMAIN-SUFFIX,www.destinationurl.com,Google
-DOMAIN-SUFFIX,www.pxcc.com,Google
 DOMAIN-SUFFIX,x.company,Google
 DOMAIN-SUFFIX,x.team,Google
 DOMAIN-SUFFIX,xn--9kr7l.com,Google
@@ -803,3 +786,23 @@ DOMAIN-SUFFIX,youtubemobilesupport.com,Google
 DOMAIN-SUFFIX,yt.be,Google
 DOMAIN-SUFFIX,ytimg.com,Google
 DOMAIN-SUFFIX,zukunftswerkstatt.de,Google
+DOMAIN,apps5.oingo.com,Google
+DOMAIN,avail.googleflights.net,Google
+DOMAIN,clickserve.cc-dt.com,Google
+DOMAIN,dartsearch-cn.net,Google
+DOMAIN,gonglchuangl.net,Google
+DOMAIN,gongyichuangyi.net,Google
+DOMAIN,google-ohttp-relay-safebrowsing.fastly-edge.com,Google
+DOMAIN,googleapis-cn.com,Google
+DOMAIN,googleapps-cn.com,Google
+DOMAIN,googleflights-cn.net,Google
+DOMAIN,gstatic-cn.com,Google
+DOMAIN,gtm.oasisfeng.com,Google
+DOMAIN,qiao-cn.com,Google
+DOMAIN,qpx.googleflights.net,Google
+DOMAIN,recaptcha-cn.net,Google
+DOMAIN,recaptcha.net,Google
+DOMAIN,www.destinationurl.com,Google
+DOMAIN,www.pxcc.com,Google
+DOMAIN,www.recaptcha-cn.net,Google
+DOMAIN,www.recaptcha.net,Google
