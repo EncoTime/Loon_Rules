@@ -1,0 +1,14 @@
+{
+  "name": "cloudflare",
+  "policy": "Cloudflare",
+  "sources": [
+    "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Cloudflare/Cloudflare.list",
+    "https://www.cloudflare.com/ips-v4",
+    "https://www.cloudflare.com/ips-v6"
+  ],
+  "exclude": [
+    "pages.dev",
+    "workers.dev",
+    "trycloudflare.com"
+  ]
+}
