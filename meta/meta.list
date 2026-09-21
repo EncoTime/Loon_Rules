@@ -1,6 +1,6 @@
 # meta — Loon 规则（自动生成，勿手改）
-# 上游 1/1 个源，共 545 条
-# 生成时间：2026-09-21T06:59:43+08:00
+# 上游 1/1 个源，共 546 条
+# 生成时间：2026-09-22T07:49:52+08:00
 DOMAIN-SUFFIX,aboutfacebook.com,Meta
 DOMAIN-SUFFIX,accessfacebookfromschool.com,Meta
 DOMAIN-SUFFIX,accountkit.com,Meta
@@ -513,6 +513,7 @@ DOMAIN-SUFFIX,sportsfacebook.com,Meta
 DOMAIN-SUFFIX,sportstream.com,Meta
 DOMAIN-SUFFIX,supportfacebook.com,Meta
 DOMAIN-SUFFIX,terragraph.com,Meta
+DOMAIN-SUFFIX,tfbnw.net,Meta
 DOMAIN-SUFFIX,thefacebook.com,Meta
 DOMAIN-SUFFIX,thefacebook.net,Meta
 DOMAIN-SUFFIX,thefind.com,Meta
