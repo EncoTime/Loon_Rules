@@ -1,0 +1,8 @@
+{
+  "name": "1password",
+  "policy": "1Password",
+  "sources": [
+    "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/classical/agilebits.list"
+  ],
+  "exclude": []
+}
