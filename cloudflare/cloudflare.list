@@ -1,6 +1,6 @@
 # cloudflare — Loon 规则（自动生成，勿手改）
 # 上游 3/3 个源，共 62 条
-# 生成时间：2026-09-23T07:29:55+08:00
+# 生成时间：2026-09-24T07:25:56+08:00
 DOMAIN-SUFFIX,cf-ipfs.com,Cloudflare
 DOMAIN-SUFFIX,cf-ns.com,Cloudflare
 DOMAIN-SUFFIX,cf-ns.net,Cloudflare
