@@ -1,11 +1,13 @@
 # bybit — Loon 规则（自动生成，勿手改）
-# 上游 4/4 个源，共 55 条
-# 生成时间：2026-10-10T08:29:31+08:00
+# 上游 4/4 个源，共 51 条
+# 生成时间：2026-10-11T08:05:45+08:00
+DOMAIN-KEYWORD,bybit,Bybit
 DOMAIN-SUFFIX,byabcd.com,Bybit
 DOMAIN-SUFFIX,byabcde.com,Bybit
 DOMAIN-SUFFIX,byapis.com,Bybit
 DOMAIN-SUFFIX,byapps.net,Bybit
 DOMAIN-SUFFIX,bybdc6.com,Bybit
+DOMAIN-SUFFIX,bybit-api.com,Bybit
 DOMAIN-SUFFIX,bybit-aws.com,Bybit
 DOMAIN-SUFFIX,bybit-exchange.github.io,Bybit
 DOMAIN-SUFFIX,bybit-global.com,Bybit
@@ -13,6 +15,7 @@ DOMAIN-SUFFIX,bybit.ada.support,Bybit
 DOMAIN-SUFFIX,bybit.biz,Bybit
 DOMAIN-SUFFIX,bybit.cloud,Bybit
 DOMAIN-SUFFIX,bybit.com,Bybit
+DOMAIN-SUFFIX,bybitassets.com,Bybit
 DOMAIN-SUFFIX,bybitgeorgia.ge,Bybit
 DOMAIN-SUFFIX,bybitglobal.com,Bybit
 DOMAIN-SUFFIX,bycbe.com,Bybit
@@ -36,18 +39,11 @@ DOMAIN,bybit.ada.support,Bybit
 IP-CIDR,104.116.243.0/24,Bybit,no-resolve
 IP-CIDR,104.70.124.203/32,Bybit,no-resolve
 IP-CIDR,124.156.229.180/32,Bybit,no-resolve
-IP-CIDR,13.32.121.6/32,Bybit,no-resolve
-IP-CIDR,13.33.187.108/32,Bybit,no-resolve
 IP-CIDR,138.113.104.63/32,Bybit,no-resolve
 IP-CIDR,138.113.105.86/32,Bybit,no-resolve
-IP-CIDR,142.251.215.234/32,Bybit,no-resolve
-IP-CIDR,150.109.230.182/32,Bybit,no-resolve
 IP-CIDR,18.228.108.163/32,Bybit,no-resolve
 IP-CIDR,218.58.101.229/32,Bybit,no-resolve
-IP-CIDR,3.160.150.37/32,Bybit,no-resolve
 IP-CIDR,43.133.182.94/32,Bybit,no-resolve
-IP-CIDR,43.133.238.145/32,Bybit,no-resolve
-IP-CIDR,43.133.241.84/32,Bybit,no-resolve
 IP-CIDR,43.135.121.179/32,Bybit,no-resolve
 IP-CIDR,43.153.238.13/32,Bybit,no-resolve
 IP-CIDR,43.154.61.67/32,Bybit,no-resolve
