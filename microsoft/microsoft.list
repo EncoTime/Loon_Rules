@@ -1,6 +1,6 @@
 # microsoft — Loon 规则（自动生成，勿手改）
-# 上游 2/2 个源，共 773 条
-# 生成时间：2026-10-19T06:47:39+08:00
+# 上游 2/2 个源，共 771 条
+# 生成时间：2026-10-20T08:06:44+08:00
 DOMAIN-KEYWORD,1drv,Microsoft
 DOMAIN-KEYWORD,microsoft,Microsoft
 DOMAIN-KEYWORD,onedrive,Microsoft
@@ -32,7 +32,6 @@ DOMAIN-SUFFIX,applicationinsights.io,Microsoft
 DOMAIN-SUFFIX,applicationinsights.net,Microsoft
 DOMAIN-SUFFIX,appserviceenvironment.cn,Microsoft
 DOMAIN-SUFFIX,aria.ms,Microsoft
-DOMAIN-SUFFIX,asobostudio.com,Microsoft
 DOMAIN-SUFFIX,asp.net,Microsoft
 DOMAIN-SUFFIX,aspnetcdn.com,Microsoft
 DOMAIN-SUFFIX,assets-yammer.com,Microsoft
@@ -230,7 +229,6 @@ DOMAIN-SUFFIX,explorebing.com,Microsoft
 DOMAIN-SUFFIX,fabric.io,Microsoft
 DOMAIN-SUFFIX,fasttrackreadysupport.com,Microsoft
 DOMAIN-SUFFIX,femalefounderscomp.com,Microsoft
-DOMAIN-SUFFIX,flightsimulator.com,Microsoft
 DOMAIN-SUFFIX,flipwithsurface.com,Microsoft
 DOMAIN-SUFFIX,fluidpreview.com,Microsoft
 DOMAIN-SUFFIX,footprintdns.com,Microsoft
