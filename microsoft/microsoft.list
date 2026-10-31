@@ -1,6 +1,6 @@
 # microsoft — Loon 规则（自动生成，勿手改）
-# 上游 2/2 个源，共 771 条
-# 生成时间：2026-10-31T08:24:10+08:00
+# 上游 2/2 个源，共 773 条
+# 生成时间：2026-11-01T07:56:51+08:00
 DOMAIN-KEYWORD,1drv,Microsoft
 DOMAIN-KEYWORD,microsoft,Microsoft
 DOMAIN-KEYWORD,onedrive,Microsoft
@@ -165,6 +165,7 @@ DOMAIN-SUFFIX,bingpix.com,Microsoft
 DOMAIN-SUFFIX,bingpk.com,Microsoft
 DOMAIN-SUFFIX,bings.com,Microsoft
 DOMAIN-SUFFIX,bingsandbox.com,Microsoft
+DOMAIN-SUFFIX,bingstatic.com,Microsoft
 DOMAIN-SUFFIX,bingtoolbar.com,Microsoft
 DOMAIN-SUFFIX,bingtranslator.com,Microsoft
 DOMAIN-SUFFIX,bingvisualsearch.com,Microsoft
@@ -504,6 +505,7 @@ DOMAIN-SUFFIX,msfteducation.ca,Microsoft
 DOMAIN-SUFFIX,msftidentity.com,Microsoft
 DOMAIN-SUFFIX,msftncsi.com,Microsoft
 DOMAIN-SUFFIX,msftnet.org,Microsoft
+DOMAIN-SUFFIX,msftstatic.com,Microsoft
 DOMAIN-SUFFIX,msgamesresearch.com,Microsoft
 DOMAIN-SUFFIX,msgamestudios.com,Microsoft
 DOMAIN-SUFFIX,mshome.net,Microsoft
