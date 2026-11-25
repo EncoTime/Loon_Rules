@@ -1,6 +1,6 @@
 # google — Loon 规则（自动生成，勿手改）
-# 上游 1/1 个源，共 806 条
-# 生成时间：2026-11-24T13:08:20+08:00
+# 上游 1/1 个源，共 807 条
+# 生成时间：2026-11-25T11:57:00+08:00
 DOMAIN-SUFFIX,0emm.com,Google
 DOMAIN-SUFFIX,1e100.net,Google
 DOMAIN-SUFFIX,1ucrs.com,Google
@@ -182,6 +182,7 @@ DOMAIN-SUFFIX,g.page,Google
 DOMAIN-SUFFIX,gateway.dev,Google
 DOMAIN-SUFFIX,gbiz,Google
 DOMAIN-SUFFIX,gcr.io,Google
+DOMAIN-SUFFIX,gemma.ai,Google
 DOMAIN-SUFFIX,gerritcodereview.com,Google
 DOMAIN-SUFFIX,get.app,Google
 DOMAIN-SUFFIX,get.dev,Google
