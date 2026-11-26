@@ -1,13 +1,11 @@
 # bybit — Loon 规则（自动生成，勿手改）
-# 上游 4/4 个源，共 51 条
-# 生成时间：2026-11-25T11:56:59+08:00
-DOMAIN-KEYWORD,bybit,Bybit
+# 上游 3/4 个源，共 48 条
+# 生成时间：2026-11-26T11:22:35+08:00
 DOMAIN-SUFFIX,byabcd.com,Bybit
 DOMAIN-SUFFIX,byabcde.com,Bybit
 DOMAIN-SUFFIX,byapis.com,Bybit
 DOMAIN-SUFFIX,byapps.net,Bybit
 DOMAIN-SUFFIX,bybdc6.com,Bybit
-DOMAIN-SUFFIX,bybit-api.com,Bybit
 DOMAIN-SUFFIX,bybit-aws.com,Bybit
 DOMAIN-SUFFIX,bybit-exchange.github.io,Bybit
 DOMAIN-SUFFIX,bybit-global.com,Bybit
@@ -15,7 +13,6 @@ DOMAIN-SUFFIX,bybit.ada.support,Bybit
 DOMAIN-SUFFIX,bybit.biz,Bybit
 DOMAIN-SUFFIX,bybit.cloud,Bybit
 DOMAIN-SUFFIX,bybit.com,Bybit
-DOMAIN-SUFFIX,bybitassets.com,Bybit
 DOMAIN-SUFFIX,bybitgeorgia.ge,Bybit
 DOMAIN-SUFFIX,bybitglobal.com,Bybit
 DOMAIN-SUFFIX,bycbe.com,Bybit
