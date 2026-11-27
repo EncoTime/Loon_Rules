@@ -1,6 +1,6 @@
 # bybit — Loon 规则（自动生成，勿手改）
 # 上游 3/4 个源，共 48 条
-# 生成时间：2026-11-26T11:22:35+08:00
+# 生成时间：2026-11-27T11:29:18+08:00
 DOMAIN-SUFFIX,byabcd.com,Bybit
 DOMAIN-SUFFIX,byabcde.com,Bybit
 DOMAIN-SUFFIX,byapis.com,Bybit
