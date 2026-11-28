@@ -1,6 +1,6 @@
 # microsoft — Loon 规则（自动生成，勿手改）
-# 上游 2/2 个源，共 773 条
-# 生成时间：2026-11-27T11:29:19+08:00
+# 上游 2/2 个源，共 774 条
+# 生成时间：2026-11-28T11:05:23+08:00
 DOMAIN-KEYWORD,1drv,Microsoft
 DOMAIN-KEYWORD,microsoft,Microsoft
 DOMAIN-KEYWORD,onedrive,Microsoft
@@ -759,6 +759,7 @@ DOMAIN-SUFFIX,xboxstudios.com,Microsoft
 DOMAIN-SUFFIX,xbx.lv,Microsoft
 DOMAIN-SUFFIX,yammer.com,Microsoft
 DOMAIN-SUFFIX,yammerusercontent.com,Microsoft
+DOMAIN,aurora-customization-usw2.lithium.com,Microsoft
 DOMAIN,github-api.arkoselabs.com,Microsoft
 DOMAIN,github-cloud.s3.amazonaws.com,Microsoft
 DOMAIN,github-production-release-asset-2e65be.s3.amazonaws.com,Microsoft
